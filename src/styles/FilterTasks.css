@@ -1,0 +1,19 @@
+.filter {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.filterItem {
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+  color: grey;
+}
